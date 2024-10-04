@@ -1,4 +1,4 @@
-Invoke-WebRequest https://raw.githubusercontent.com/rameshvbabu/cdw-requirements/refs/heads/main/requirements.txt -Outfile requirements.txt
+Invoke-WebRequest https://raw.githubusercontent.com/rameshvbabu/cdw-requirements/refs/heads/prod/requirements.txt -Outfile requirements.txt
 write-Host "Latest requirements file downloaded"
 python -m venv .venv
 .\.venv\Scripts\activate
